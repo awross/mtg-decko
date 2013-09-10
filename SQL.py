@@ -12,7 +12,7 @@ class Sql:
     con = None
     cursor = None
 
-    def __init__(self, db, user="root", passwd="temple29", host="localhost"):
+    def __init__(self, db, user="root", passwd="########", host="localhost"):
         self.db = db
         self.user = user
         self.passwd = passwd
