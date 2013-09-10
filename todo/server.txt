@@ -1,0 +1,5 @@
+Server
+[X] Restart game in progress
+[ ] Allow pre-loading of decklist
+[ ] Start/kill server on the fly
+[ ] Spectator mode

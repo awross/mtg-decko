@@ -1,0 +1,3 @@
+Editor
+[ ] Allow tree hierarchy of decks, versioning
+[ ] Allow draft in deck editor?

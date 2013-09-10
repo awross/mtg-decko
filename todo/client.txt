@@ -1,0 +1,10 @@
+Client
+[X] Changing Zones
+[X] Adjusting life totals
+[X] Tokens
+[X] Phases
+[X] Attaching Cards
+[X] Counters
+[ ] Look/Reveal top X cards of library/hand
+[ ] Sideboarding
+[ ] Proper Combat

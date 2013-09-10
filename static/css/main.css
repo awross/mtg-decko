@@ -1,0 +1,246 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: left;
+}
+
+.drop_highlight {
+    background: grey;
+}
+.placeholder {
+    background: lightgray; 
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+#own_hand {
+    margin: 0px;
+    padding: 0 0 0 80px;
+    display: inline-block;
+    float: left;
+}
+
+.active.deck_card {
+    border-style: solid;
+    border-color: Gold;
+    border-width: 10px;
+    margin: 0px !important;
+}
+
+.active.card {
+    border-style: solid;
+    border-color: Gold;
+    border-width: 1px;
+    /*margin-top: 0px !important;
+}
+
+.card {
+    /*width: 100px;*/
+    /*height: 150px;*/
+    /*border-radius: 8px;*/
+    /*background: White;*/
+    /*color: White;*/
+    margin: 0 0 0 -80px;
+    padding: 5px;
+}
+
+.tapped {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    /*margin-left: 20px !important;*/
+}
+
+#deck_wrapper {
+    overflow-y: scroll;
+}
+
+.deck_card {
+    text-align: center;
+    vertical-align: bottom;
+    float: left;
+    margin: 10px;
+    height: 75px;
+    padding: 15px 10px 10px 10px;
+    width: 225px;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+#creatures {
+}
+
+#other {
+    clear: right;
+}
+
+#lands {
+    clear: left;
+}
+
+#auras {
+}
+
+.zone {
+    float: left;
+    /*border: 1px solid black;*/
+    display: inline-block;
+}
+
+#hud {
+    float: right;
+    display: inline-block;
+}
+
+.hud {
+    width: 100px;
+    float: right;
+    /*clear: both;*/
+}
+#info {
+}
+.player {
+    z-index: 900;
+    color: white;
+    background-color: black;
+    display: block !important;
+}
+#own_player {
+    width: 100%;
+    margin-top: 10px;
+}
+#opp_player {
+    width: 100px;
+    position: absolute;
+    display: float;
+    clear: both;
+    top: 30;
+    left: 0;
+}
+#pass_phase {
+    float: right;
+    display: inline-block;
+}
+
+#own_hand .card {
+    margin: 0 0 0 -80px;
+}
+
+.battlefield {
+    overflow-y: scroll;
+}
+
+#own_battle .card {
+    margin: 5px 5px 5px 5px;
+}
+
+#header {
+	height: 44px;
+	background: black;
+	padding: 0;
+	margin: 0;
+}
+
+#brand {
+	float: left;
+	width: 210px;
+	padding: 16px 7px 0 10px;
+	font-size: 16px;
+	color:white;
+}
+
+#no_view {
+    visibility: hidden;
+}
+
+#wrapper {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+
+#table {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+    border: 1px solid black;
+}
+
+#hud {
+    float: right;
+}
+
+#chat_area {
+	position: absolute;
+    border: 1px solid black;
+	padding: 0;
+	margin: 0;
+}
+
+#chat {
+    overflow:auto;
+    border: 1px solid black;
+}
+
+#chatform {
+	padding: 8px 8px 8px 8px;
+	margin: 0;
+}
+.mouse_menu {
+    margin: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 100px;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;
+    background-color: #eee;
+    list-style-type: none;
+    color: #000;
+    padding: 0;
+    z-index: 2000;
+}
+#chat .debug {
+    color: white !important;
+    background-color: red !important;
+}
+#ping {
+    display: inline-block;
+}
+#toggle_debug {
+    display: inline-block;
+}
+
+.mouse_menu li {
+    padding:2px 5px;
+    cursor:default;
+}
+.mouse_menu li:hover {
+    background-color:#ccc;
+}
+
+.mouse_menu .break {
+    padding: 2px;
+}
+.mouse_menu .break:hover {
+    background-color:#eee;
+}
+.mouse_menu .break hr{
+    color:#eee;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+._jsPlumb_endpoint {
+    z-index: 1000;
+}

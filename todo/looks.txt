@@ -1,0 +1,4 @@
+[ ] Add player info next to battlefield (name, # cards in zones, life total)
+[ ] Show library
+[ ] Phase indication bar, allow stop or auto-pass
+[ ] Phase-contextual left click
